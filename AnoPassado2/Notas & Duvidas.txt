@@ -1,0 +1,36 @@
+### Caso de Estudo ###
+ - Hospital SaintThomas, com grande abrangencia de serviços/especialidades médicas. 
+
+ - Pretende um SI que integre tarefas administrativas e gestão de registos medicos eletrónicos.
+
+ - Um SI que adicionalmente permita a comunicação entre departamentos e que dê suporte a importantes processos de negócio
+ (Nomeadamente, Registos de informação médica, Pagamentos e gestão de consultas)
+
+ - O Rececionista, tem a cargo a gestão dos serviços de saúde providênciados pelo hospital (Organização). 
+	- Recebem todas as visitas, pacientes ou clientes e respondem telefonemas e e-mails
+	- Tem também a cargo, a gestão de informação pessoal de cada paciente, incluindo o processo de registo.
+	- Podem fazer pré registos de pacientes, recolher e atualizar informação demográfica e informação de seguros. 
+	- Têm permissão para criar registos longos e curtos
+		(Registo curto tem duas possibilidades. O registo a que o médico tem acesso nas rondas, é um registo curto e direto do internamento do paciente. 
+		A segunda possibilidade, é um registo feito na entrada das urgências. O registo longo, é um registo mais completo).
+	- têm acedo ao histórico de visitas, e altas de pacientes.
+
+ - A informação guardada durante  registo é partilhada entre Edificios da Organização, permitindo uma base de dados de todos os pacientes, seguros
+	e histórico de visitas para cada paciente em cuidados continuados. 
+
+ - Um paciente para ser registado é submetido a uma triagem, que lhe atribui também um processo de pagamento. (dependendo se tem seguro o não)
+	Caso não exista seguro de saúde, o Governo "pode" ajudar o paciente de certa forma. 
+
+ - Processo de Consulta começa de acordo com o processo de lista de espera. E assim que é atribuida uma consuta a um paciente, o seu processo, fica disponível para o 
+	médico responsável pela consulta. 
+
+ - Uma consulta tem várias etapas
+	Primero - O médico analisa o histórico médico do paciente.
+	Segundo - Pergunta os sintomas ao paciente, causas, e motivos para a consulta, com uma possivel observação do utente. 
+	
+ - O médico cria um diagnóstico baseado na informação recolhida. Dependendo da severidade do diagnóstico, o médico tem 3 opções:
+	1ª. Prescreve uma receita médica com um tratamento.
+	2ª. Prescreve um tratamento com possível marcação de uma consulta adicional. 
+	3ª. Em casos urgentes, pode ser direcionado para as urgências (Ex cirurgias) 
+
+ - Após o terminus da consulta (15 min depois), o Processo clínico do Paciente deixa de estar disponivel ao respetivo médico. (tarefa com relogio)

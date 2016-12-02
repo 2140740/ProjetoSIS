@@ -1,0 +1,11 @@
+
+
+ -> requisitos de sistema
+ -> Processos ( Idêntificação
+		Modelação Bpmn
+		Modelação Bonita
+
+ -> Qual o sistema que suporta este sistema
+ -> Como é que corresponde aos requisitos identificados
+ -> Porque é a melhor solução?
+
