@@ -1,0 +1,9 @@
+Recepcionista inicial - ruben
+ProcessoConsulta - samuel
+ProcessoPagamento - david
+
+
+----------------
+ProcessoTriagem - samuel
+RecepcionistaFinal - ruben
+Tratamento - david
